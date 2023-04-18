@@ -25,7 +25,10 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("https://social1-app.herokuapp.com/api/auth/register", inputs);
+      await axios.post(
+        "https://social-app-heroku.herokuapp.com/api/auth/register",
+        inputs
+      );
       navigate("/");
     } catch (err) {
       setErr(err.response.data);

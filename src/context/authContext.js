@@ -15,7 +15,7 @@ export const AuthContextProvider = ({ children }) => {
 
   const login = async (inputs) => {
     const res = await axios.post(
-      "https://social1-app.herokuapp.com/api/auth/login",
+      "https://social-app-heroku.herokuapp.com/api/auth/login",
       inputs,
       {
         withCredentials: true,
