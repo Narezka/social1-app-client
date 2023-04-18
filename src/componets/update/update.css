@@ -1,0 +1,77 @@
+.update{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-color: azure;
+    padding: 50px;
+    z-index: 999;
+}
+
+.update span{
+    display: flex;
+    justify-content: center;
+    margin: -25px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.update .updateClose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 2px;
+    border: none;
+    width: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: azure;
+    background-color: #cf0a0a;;
+}
+
+.update .updateClose:hover{
+    cursor: pointer;
+    background-color: #eb6440;
+}
+
+.update form{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.update p{
+    width: 110px;
+}
+
+.update .updateCoverPic, .updateProfilePic, .updateProfileName, .profileWebsite, .profileCity{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.update .file{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.update .upload{
+    width: 80px;
+    height: 30px;
+    margin-left: 240px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: none;
+    background-color:#332fd0;
+    color: azure;
+}
+
+.update .upload:hover{
+    cursor: pointer;
+    background-color: #3e6d9c;
+}
+

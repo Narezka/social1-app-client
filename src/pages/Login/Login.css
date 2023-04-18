@@ -1,0 +1,110 @@
+/* body{
+    background-color: #B7D3DF;
+} */
+
+.login {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: 430px;
+  margin-top: 90px;
+}
+
+.login .right {
+  display: flex;
+  width: 400px;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login .login-input {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 40px;
+}
+
+.login .l-header {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.login .l-input {
+  line-height: 40px;
+  margin-bottom: 10px;
+  outline: 0;
+  border-width: 0 0 2px;
+  font-size: 15px;
+  width: 290px;
+}
+
+.login .errorMsg {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.login .l-button {
+  margin-top: 20px;
+  width: 130px;
+  padding: 7px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #533483;
+}
+.login .l-button:hover {
+  background-color: #7a86b6;
+}
+
+.login .left {
+  background-image: url("https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvdXAlMjBvZiUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+  background-size: 200%;
+  background-color: #533483;
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.login .register-input {
+  padding: 40px 45px;
+  width: 300px;
+}
+
+.login .r-header {
+  width: 300px;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold 700;
+}
+
+.login .r-description {
+  width: 300px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.login .r {
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.login .r-button {
+  margin-top: 30px;
+  width: 130px;
+  height: 42px;
+  font-size: 20px;
+  font-family: "Monterrat", sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #fcf8e8;
+  border: none;
+  color: #0c1e7f;
+}
+
+.login .r-button:hover {
+  background-color: #e9d5da;
+}

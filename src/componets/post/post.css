@@ -1,0 +1,217 @@
+.post {
+  border-radius: 10px;
+  padding: 15px 15px 5px 15px;
+  margin: 10px 0 15px 0;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+.post .topPostInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .postUserIMG {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.post .postUserIMG:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  box-shadow: 0 2px 10px rgb(145, 140, 140);
+}
+
+.post .postUser {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.post .postUserName:hover {
+  text-decoration: underline;
+}
+
+.post .postTime {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.post .postTime:hover{
+  text-decoration: underline;
+}
+
+.post .moreIcon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.post .moreIcon:hover {
+  background-color: #d8e6e6;
+  border-radius: 50%;
+}
+
+.post .postContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.post .postDescription {
+  padding-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.post .postIMG {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+  /* margin: 20px auto; */
+  cursor: pointer;
+}
+
+
+.post .bottomPostInfo {
+  color: grey;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.post .postNumbers {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 30px;
+}
+
+.post .like {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+
+}
+
+.post .like:hover {
+  text-decoration: underline;
+}
+
+.post .likeIcon {
+  width: 20%;
+  /* color: #e0144c; */
+  cursor: pointer;
+}
+
+.post .likeIcon:hover {
+  color: #ff5858;
+}
+
+.post .likedIcon{
+  width: 20%;
+  color: #e0144c;
+  cursor: pointer;
+}
+
+.post .likedIcon:hover{
+color:  #ff5858;
+}
+
+.post .comment {
+  margin-left: 255px;
+
+}
+
+.post .comment:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post .shared{
+  display: flex;
+  align-items: center;
+
+}
+
+.post .shared:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post .shareIcon{
+  width: 30%;
+  margin-right: 5px;
+}
+
+.post .postActions {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  font-size: 18px;
+}
+
+.post .commentAction {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  justify-content: center;
+}
+
+.post .commentAction:hover {
+  background-color: #d8e6e6;
+}
+
+.post .commentIcon {
+  width: 15%;
+}
+
+.post .likeAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 0px 2px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  gap: 5px;
+}
+
+.post .likeAction:hover {
+  background-color: #d8e6e6;
+}
+
+.post .thumbIcon {
+  width: 17%;
+}
+
+.post .shareAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 0px 2px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  gap: 5px;
+}
+
+.post .shareAction:hover {
+  background-color: #d8e6e6;
+}
+
+.post .shareIcon {
+  width: 19%;
+}

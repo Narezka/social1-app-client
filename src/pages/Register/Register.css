@@ -1,0 +1,114 @@
+/* body{
+    background-color: #B7D3DF;
+} */
+
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 430px;
+    margin-top: 90px;
+}
+
+.register .left {
+    display: flex;
+    width:400px;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.register .register-input {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    border: none;
+}
+
+.register .r-header{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.register .r-input{
+    line-height: 40px;
+    margin-bottom: 10px;
+    outline: 0;
+    border-width: 0 0 2px;
+    font-size: 15px;
+    width: 290px;
+}
+
+.register .errorMsg{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.register .r-button{
+    margin-top: 20px;
+    width: 130px;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #533483;
+}
+.register .r-button:hover{
+    background-color: #7A86B6;
+}
+
+.register .right{
+    border-radius: 0 10px 10px 0 ;
+    background-image: url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlJTIwY29ubmVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+    background-size: 200%;
+    background-color: #533483;
+    background-blend-mode: soft-light;
+    background-position:center ;
+    background-repeat: no-repeat;
+    color:white;
+ }
+
+ .register .login-input{
+    padding:  40px 45px;
+    width: 300px;
+}
+
+
+.register .l-header{
+    width: 300px;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold 700;
+}
+
+.register .l-description{
+    width: 300px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.register .l{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.register .l-button{
+    margin-top: 30px;
+    width: 130px;
+    height: 42px;
+    font-size: 20px;
+    font-family: "Monterrat", sans-serif;
+    font-weight: 500;
+    border-radius: 5px; 
+    background-color: #FCF8E8;
+    border:none;
+    color: #0C1E7F;
+}
+
+.register .l-button:hover{
+    background-color: #E9D5DA;
+}

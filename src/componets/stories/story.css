@@ -1,0 +1,80 @@
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 25px 0;
+}
+.topContainer .addStory {
+  background-color: azure;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 50px;
+}
+
+.topContainer .addIcon {
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+  color: azure;
+  border-radius: 50%;
+  background-color: dodgerblue;
+  width: 30px;
+  height: 30px;
+}
+
+.topContainer .addIcon:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.topContainer .newStory {
+  color: black;
+  position: relative;
+  top: -26px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  text-align: center;
+}
+
+.topContainer .stories {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-left: 10px;
+  height: 180px;
+  width: 607px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.topContainer .stories::-webkit-scrollbar {
+  display: none;
+}
+
+.topContainer .story {
+  flex: 0 0 auto;
+  border-radius: 10px;
+  position: relative;
+  width: 110px;
+  overflow: hidden;
+}
+
+.topContainer .story:hover {
+  transform: scale(0.99);
+  cursor: pointer;
+}
+.topContainer .storyIMG {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.topContainer .storyUserName {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: azure;
+  font-weight: 500;
+}

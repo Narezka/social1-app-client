@@ -1,0 +1,183 @@
+.Rightbar {
+  flex: 3.5;
+  position: sticky;
+  top: 50px;
+  height: 570px;
+  overflow: scroll;
+}
+
+.Rightbar::-webkit-scrollbar {
+  display: none;
+}
+
+.Rightbar .suggestions {
+  margin: 12px 10px;
+  padding: 15px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  box-shadow: 2px 3px 9px grey;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Rightbar .heading {
+  font-size: 13px;
+  color: grey;
+  padding-bottom: 10px;
+}
+.Rightbar .user {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Rightbar .user:hover {
+  cursor: pointer;
+  background-color: #d8e6e6;
+  border-radius: 5px;
+}
+
+.Rightbar .userIMG {
+  border-radius: 50%;
+  width: 29px;
+  margin-right: 10px;
+}
+
+.Rightbar .userName {
+  width: 120px;
+  flex: 2;
+}
+
+.Rightbar .buttons {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.Rightbar button {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  width: 50px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Rightbar .follow {
+  background-color: #332fd0;
+  border: #332fd0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Rightbar .follow:hover {
+  background-color: #3e6d9c;
+}
+
+.Rightbar .dismiss {
+  background-color: #cf0a0a;
+  border: #cf0a0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Rightbar .dismiss:hover {
+  background-color: #eb6440;
+}
+
+.Rightbar .activities {
+  margin: 3px 10px;
+  padding: 15px 14px 25px 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  box-shadow: 2px 3px 9px grey;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Rightbar .activityUser {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Rightbar .activityUser:hover {
+  cursor: pointer;
+  background-color: #d8e6e6;
+  border-radius: 5px;
+}
+
+.Rightbar .ActivityUserIMG {
+  border-radius: 50%;
+  width: 29px;
+  margin-right: 10px;
+}
+
+.Rightbar .ActivityUserName {
+  width: 300px;
+}
+
+.Rightbar .activity {
+  color: grey;
+}
+
+.Rightbar .time {
+  width: 60px;
+  color: grey;
+  text-align: end;
+}
+
+.Rightbar .onlineFriends {
+  margin: 12px 10px;
+  padding: 15px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  box-shadow: 2px 3px 9px grey;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Rightbar .headingOnline {
+
+  font-size: 13px;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.Rightbar .userOnline {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Rightbar .userOnline:hover {
+  cursor: pointer;
+  background-color: #d8e6e6;
+  border-radius: 5px;
+}
+
+.Rightbar .onlineUserIMG {
+  border-radius: 50%;
+  width: 29px;
+  margin-right: 10px;
+}
+
+.Rightbar .onlineTag {
+  color: green;
+  width: 10px;
+  position: relative;
+  right: 18px;
+  bottom: 10px;
+}

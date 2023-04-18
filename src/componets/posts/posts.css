@@ -1,0 +1,8 @@
+.bottomContainer {
+    /* background-color: azure; */
+    margin: 20px 26px 0 35px;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }

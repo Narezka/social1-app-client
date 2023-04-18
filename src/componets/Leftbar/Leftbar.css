@@ -1,0 +1,81 @@
+.Leftbar {
+  flex: 1.5;
+  position: sticky;
+  background-color: azure;
+  top: 50px;
+  height: 580px;
+  overflow: scroll;
+}
+
+.Leftbar::-webkit-scrollbar {
+  display: none;
+}
+
+.Leftbar .menu {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: solid 1px #eaeaea;
+}
+.Leftbar .user {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 5px 15px;
+  padding: 2px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Leftbar .user:hover {
+  cursor: pointer;
+  background-color: #d8e6e6;
+  border-radius: 5px;
+}
+
+.Leftbar .username {
+  color: black;
+}
+
+.Leftbar .item {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 5px 15px;
+  padding: 2px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Leftbar .item:hover {
+  cursor: pointer;
+  background-color: #d8e6e6;
+  border-radius: 5px;
+}
+.Leftbar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.Leftbar .userIMG {
+  border-radius: 50%;
+}
+.Leftbar .shortcuts {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: solid 1px #eaeaea;
+}
+
+.Leftbar .others {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.Leftbar .itemTitles {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  margin: 0 15px 12px;
+}

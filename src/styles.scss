@@ -1,0 +1,237 @@
+.theme-light {
+  .Navbar {
+    background-color: azure;
+    color: black;
+    .left {
+      color: #182747;
+    }
+    .search {
+      background-color: azure;
+    }
+  }
+
+  .Leftbar {
+    background-color: azure;
+  }
+
+  .Rightbar {
+    .suggestions {
+      background-color: azure;
+    }
+    .activities {
+      background-color: azure;
+    }
+    .onlineFriends {
+      background-color: azure;
+    }
+  }
+
+  .home {
+    .post {
+      background-color: azure;
+    }
+  }
+}
+
+.theme-dark {
+  color: azure;
+  .Navbar {
+    background-color: #222222;
+    color: azure;
+    box-shadow: none;
+    border-bottom: solid 1px #5a6269;
+    .user:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .username {
+      color: white;
+    }
+    h1 {
+      color: azure;
+    }
+    .search {
+      background-color: #222222;
+      color: azure;
+    }
+    .searchSugestions {
+      background-color: #222222;
+    }
+    .head {
+      border-bottom: solid 1px grey;
+    }
+    .searchUser:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .searchName {
+      color: white;
+    }
+  }
+
+  .Leftbar {
+    background-color: #222222;
+    .menu {
+      border-bottom: solid 1px #5a6269;
+    }
+    .user:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .username {
+      color: white;
+    }
+    .item:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .shortcuts {
+      border-bottom: solid 1px #5a6269;
+    }
+  }
+
+  .Rightbar {
+    background-color: #424343;
+    .suggestions {
+      background-color: #222222;
+      box-shadow: none;
+    }
+    .user:hover {
+      background-color: rgb(66, 65, 65);
+    }
+
+    .activities {
+      background-color: #222222;
+      box-shadow: none;
+    }
+    .activityUser:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .onlineFriends {
+      background-color: #222222;
+      box-shadow: none;
+    }
+    .userOnline:hover {
+      background-color: rgb(66, 65, 65);
+    }
+  }
+
+  .home {
+    background-color: #424343;
+    .addStory {
+      background-color: #5a6269;
+    }
+    .newStory {
+      color: azure;
+    }
+
+    .storyForm {
+      background-color: #5a6269;
+      box-shadow: 1px 1px 15px 15px #3a3e42;
+    }
+    .share {
+      background-color: #222222;
+    }
+    .post {
+      background-color: #222222;
+    }
+    .postUser {
+      color: azure;
+    }
+    .moreIcon:hover {
+      background-color: rgb(66, 65, 65);
+    }
+
+    .commentAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .likeAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .shareAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .comments .commentInfo {
+      color: azure;
+    }
+  }
+  .profile {
+    background-color: #424343;
+    .profileBio {
+      background-color: #222222;
+    }
+    .bottomInfo {
+      color: azure;
+    }
+    .otherIcons:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .contactsIcon {
+      color: azure;
+    }
+    .contactsIcon:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .post {
+      background-color: #222222;
+    }
+    .postUser {
+      color: azure;
+    }
+    .moreIcon:hover {
+      background-color: rgb(66, 65, 65);
+    }
+
+    .commentAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .likeAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .shareAction:hover {
+      background-color: rgb(66, 65, 65);
+    }
+    .comments .commentInfo {
+      color: azure;
+    }
+    .update {
+      background-color: rgb(66, 65, 65);
+    }
+  }
+}
+
+// $themes: {
+//     light: (
+//         textColor: black,
+//         bg: white,
+//         logo: darkblue,
+//         bgSoft: #f6f3f3,
+//         textColorSoft: #555,
+//         border: lightgray,
+//     ),
+//     dark:(
+//         textColor: whitesmoke,
+//         bg: #222,
+//         logo: white,
+//         bgSoft: #333,
+//         textColorSoft: lightgray,
+//         border: #444,
+//     ),
+// }
+
+// @mixin themify($themes) {
+//     @each $theme, $map in $themes {
+
+//       .container--#{$theme} & {
+//         $theme-map: () !global;
+//         @each $key, $submap in $map {
+//           $value: map-get(map-get($themes, $theme), '#{$key}');
+//           $theme-map: map-merge($theme-map, ($key: $value)) !global;
+//         }
+
+//         @content;
+//         $theme-map: null !global;
+//       }
+
+//     }
+//   }
+
+//   @function themed($key) {
+//     @return map-get($theme-map, $key);
+//   }

@@ -1,0 +1,87 @@
+.share {
+  border-radius: 10px;
+  background-color: azure;
+  margin: 20px 25px 15px 35px;
+}
+
+.share .container {
+  padding: 15px;
+}
+
+.share .top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px rgb(204, 200, 200);
+}
+
+.share .topImg {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.share input {
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  background-color: transparent;
+  width: 60%;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.share .file{
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  margin-left: 450px;
+  position: relative;
+}
+
+.share .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.share .item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.share .bottomImg {
+  height: 20px;
+}
+
+.share span {
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+.share button {
+  border: none;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: dodgerblue;
+  border-radius: 3px;
+}
+
+.share button:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}

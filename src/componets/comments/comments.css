@@ -1,0 +1,77 @@
+.comments {
+
+}
+
+.comments .userComment {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comments .writeComment {
+  line-height: 24px;
+  width: 470px;
+  border: solid 0.5px grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.comments .sendButton {
+  height: 26px;
+  font-family: "Roboto";
+  background-color: #332fd0;
+  border: none;
+  border-radius: 3px;
+  color: azure;
+  cursor: pointer;
+}
+
+.comments .sendButton:hover{
+ background-color: #3e6d9c;
+}
+
+.comments .comment {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments .comment:hover{
+  text-decoration: none;
+}
+
+.comments .userPic {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.comments .commentInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  margin-left: 10px;
+  width: 50px;
+  color: black;
+}
+
+.comments .userName {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.comments .commentDesc {
+  width: 470px;
+  font-size: 13px;
+}
+
+.comments .commentTime {
+  font-size: 12px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
