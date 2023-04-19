@@ -6,7 +6,7 @@ import axios from "axios";
 // });
 
 export const makeRequest = fetch(
-  `${social - app - heroku.herokuapp.com}/api/`,
+  "https://social-app-heroku.herokuapp.com/api/",
   {
     method: "GET",
     credentials: "include",
