@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import "./Login.css";
@@ -23,14 +23,18 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    useEffect(async () => {
-      try {
-        await login(inputs);
-        navigate("/");
-      } catch (err) {
-        setErr(err.response.data);
-      }
-    }, []);
+    // try {
+    //   await login(inputs);
+    //   navigate("/");
+    // } catch (err) {
+    //   setErr(err.response.data);
+    // }
+
+    if (login(inputs)) {
+      navigate("/");
+    } else {
+      console.log("something is wrong");
+    }
   };
 
   return (
