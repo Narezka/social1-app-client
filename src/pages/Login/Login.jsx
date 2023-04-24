@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import "./Login.css";
 
@@ -25,7 +25,8 @@ function Login() {
     e.preventDefault();
     try {
       await login(inputs);
-      navigate('/');
+      // navigate('/');
+      <Navigate to="/" />;
     } catch (err) {
       setErr(err.response.data);
     }
