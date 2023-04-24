@@ -23,18 +23,18 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    // try {
-    //   await login(inputs);
-    //   navigate("/");
-    // } catch (err) {
-    //   setErr(err.response.data);
-    // }
-
-    if (login(inputs)) {
+    try {
+      await login(inputs);
       navigate("/");
-    } else {
-      console.log("something is wrong");
+    } catch (err) {
+      setErr(err.response.data);
     }
+
+    // if (login(inputs)) {
+    //   navigate("/");
+    // } else {
+    //   console.log("something is wrong");
+    // }
   };
 
   return (
