@@ -25,7 +25,7 @@ function Login() {
     e.preventDefault();
     try {
       await login(inputs);
-      navigate("/", { replace: true });
+      navigate("/");
     } catch (err) {
       setErr(err.response.data);
     }
